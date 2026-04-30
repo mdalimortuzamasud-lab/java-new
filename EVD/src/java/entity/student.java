@@ -1,17 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package entity;
 
-package Studentpackage;
+/**
+ *
+ * @author HP-PC
+ */
+public class student {
+    
+    private int id;
+    private String name;
+    private String email;
+    private String dob;
+    private double fee;
 
-public class Student {
-     private int id ;
-     private String name;
-     private String email;
-     private  String dob;
-     private  String fee;
-
-    public Student() {
+    public student() {
     }
 
-    public Student(int id, String name, String email, String dob, String fee) {
+    public student(int id, String name, String email, String dob, double fee) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -19,7 +27,7 @@ public class Student {
         this.fee = fee;
     }
 
-    public Student(String name, String email, String dob, String fee) {
+    public student(String name, String email, String dob, double fee) {
         this.name = name;
         this.email = email;
         this.dob = dob;
@@ -58,14 +66,12 @@ public class Student {
         this.dob = dob;
     }
 
-    public String getFee() {
+    public double getFee() {
         return fee;
     }
 
-    public void setFee(String fee) {
+    public void setFee(double fee) {
         this.fee = fee;
     }
-     
-     
-     
+    
 }
