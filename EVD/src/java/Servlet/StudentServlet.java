@@ -4,15 +4,20 @@
  */
 package Servlet;
 
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 
 /**
  *
- * @author HP-PC
+ * @author Admin
  */
-@WebServlet(name = "StudentServlet", urlPatterns = {"/student"})
+@WebServlet(name = "StudentServlet", urlPatterns = {"/StudentServlet"})
 public class StudentServlet extends HttpServlet {
 
     /**
