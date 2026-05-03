@@ -1,12 +1,12 @@
 <%@page import="entity.Student" %>
 <%@page import="dao.studentdao" %>
 <%@page import="java.util.*" %>
-<%@taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
 <% 
 List<Student> list =studentdao.getAll();
-request.setAttribute("list"list);
+request.setAttribute("list", list);
 %>
 
 

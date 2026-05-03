@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Add Student</h1>
-        <form action="/StudentServent" method="Post">
+        <form action="StudentServent" method="Post">
             <input type="hidden"name="action"value="add"/>
 
         <label for="">Name</label>
