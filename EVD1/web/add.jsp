@@ -8,14 +8,10 @@
     <body>
         <a href="add.jsp">ADD Student</a>
         <h1>Add Student</h1>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b0035f10c7a74b1e4e06baceed22ab7df5a06742
+
         <form action="StudentServent" method="Post">
             <input type="hidden"name="action"value="add"/>
->>>>>>> b0035f10c7a74b1e4e06baceed22ab7df5a06742
+
 
         <form action="studentservlet" method="post">
             <input type="hidden" name="action" value="add">

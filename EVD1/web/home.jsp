@@ -3,21 +3,13 @@
 <%@page import="java.util.*" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<<<<<<< HEAD
 <%
     StudentDao dao = new StudentDao();
     List<Student> list = dao.getAll();
     request.setAttribute("list", list);
-=======
-
 <% 
 List<Student> list =studentdao.getAll();
-request.setAttribute("list", list);
-<<<<<<< HEAD
->>>>>>> b0035f10c7a74b1e4e06baceed22ab7df5a06742
-=======
->>>>>>> b0035f10c7a74b1e4e06baceed22ab7df5a06742
-%>
+request.setAttribute("list", list);%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

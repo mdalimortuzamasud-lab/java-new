@@ -2,7 +2,7 @@
 package Servent;
 
 import Dao.StudentDao;
-import entity.student;
+import entity.Student;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -46,7 +46,7 @@ public class StudentServent extends HttpServlet {
         }
           else if("edit".equalsIgnoreCase(action)){
            int id =Integer.parseInt(request.getParameter("id"));
-           student s =dao.getById(id);
+           Student s =dao.getById(id);
            request.setAttribute("student", s);
            request.getRequestDispatcher("edit.jsp").forward(request, response);
            
@@ -60,7 +60,7 @@ public class StudentServent extends HttpServlet {
             throws ServletException, IOException {
         String action =request.getParameter("action");
         if("add".equalsIgnoreCase(action)){
-        student s =new student();
+        Student s =new Student();
         
         s.setName(request.getParameter("Name"));
         s.setEmail(request.getParameter("Email"));
@@ -72,7 +72,7 @@ public class StudentServent extends HttpServlet {
         }
         else if("update".equalsIgnoreCase(action)){
                 
-                student s =new student();
+                Student s =new Student();
                 
         s.setName(request.getParameter("Name"));
         s.setEmail(request.getParameter("Email"));

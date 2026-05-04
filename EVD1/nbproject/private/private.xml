@@ -3,29 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <file>file:/C:/Users/HP-PC/OneDrive/Documents/NetBeansProjects/java/EVD1/src/java/entity/Student.java</file>
-            <file>file:/C:/Users/HP-PC/OneDrive/Documents/NetBeansProjects/java/EVD1/src/java/dao/StudentDao.java</file>
-            <file>file:/C:/Users/HP-PC/OneDrive/Documents/NetBeansProjects/java/EVD1/src/java/Servent/StudentServlet.java</file>
-            <file>file:/C:/Users/HP-PC/OneDrive/Documents/NetBeansProjects/java/EVD1/web/add.jsp</file>
-            <file>file:/C:/Users/HP-PC/OneDrive/Documents/NetBeansProjects/java/EVD1/web/home.jsp</file>
-            <file>file:/C:/Users/HP-PC/OneDrive/Documents/NetBeansProjects/java/EVD1/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/HP-PC/OneDrive/Documents/NetBeansProjects/java/EVD1/web/edit.jsp</file>
-            <file>file:/C:/Users/HP-PC/OneDrive/Documents/NetBeansProjects/java/EVD1/src/java/Util/DUBtil.java</file>
-=======
-=======
->>>>>>> b0035f10c7a74b1e4e06baceed22ab7df5a06742
+            <file>file:/F:/HTML-Git/Java-new/java-new/EVD1/nbproject/build-impl.xml</file>
             <file>file:/F:/HTML-Git/Java-new/java-new/EVD1/src/java/Servent/StudentServent.java</file>
-            <file>file:/F:/HTML-Git/Java-new/java-new/EVD1/src/java/Util/DUBtil.java</file>
+            <file>file:/F:/HTML-Git/Java-new/java-new/EVD1/web/edit.jsp</file>
+            <file>file:/F:/HTML-Git/Java-new/java-new/EVD1/src/java/entity/Student.java</file>
             <file>file:/F:/HTML-Git/Java-new/java-new/EVD1/web/add.jsp</file>
             <file>file:/F:/HTML-Git/Java-new/java-new/EVD1/web/home.jsp</file>
-            <file>file:/F:/HTML-Git/Java-new/java-new/EVD1/src/java/dao/StudentDao.java</file>
-            <file>file:/F:/HTML-Git/Java-new/java-new/EVD1/web/WEB-INF/web.xml</file>
-<<<<<<< HEAD
->>>>>>> b0035f10c7a74b1e4e06baceed22ab7df5a06742
-=======
->>>>>>> b0035f10c7a74b1e4e06baceed22ab7df5a06742
         </group>
     </open-files>
 </project-private>
