@@ -8,7 +8,7 @@ package entity;
  *
  * @author HP-PC
  */
-public class student {
+public class Student {
     
     private int id;
     private String name;
@@ -16,10 +16,10 @@ public class student {
     private String dob;
     private double fee;
 
-    public student() {
+    public Student() {
     }
 
-    public student(int id, String name, String email, String dob, double fee) {
+    public Student(int id, String name, String email, String dob, double fee) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -27,7 +27,7 @@ public class student {
         this.fee = fee;
     }
 
-    public student(String name, String email, String dob, double fee) {
+    public Student(String name, String email, String dob, double fee) {
         this.name = name;
         this.email = email;
         this.dob = dob;
